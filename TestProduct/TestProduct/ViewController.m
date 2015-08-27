@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSString *stringData = @"";
+    NSData *sdata = [[NSData alloc] init];
     
     // Do any additional setup after loading the view, typically from a nib.
 }
@@ -25,6 +25,10 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)created2ndNewBranch{
+    
 }
 
 @end
